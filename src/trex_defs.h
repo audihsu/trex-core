@@ -32,7 +32,7 @@ limitations under the License.
 #define MAX_THREADS_SUPPORTED   (1536)
 #else
 #define MAX_SOCKETS_SUPPORTED   (4)
-#define MAX_THREADS_SUPPORTED   (120)
+#define MAX_THREADS_SUPPORTED   (512)
 #endif
 
 // 64 cores, each two digits, + 63 commas < 192
